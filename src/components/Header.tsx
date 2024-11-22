@@ -65,7 +65,7 @@ export const Header = () => {
       <Nav>
         <Logo to="/">
           <img
-            src="/trolley.png"
+            src="./trolley.png"
             alt="Paradise Nursery logo"
             style={{ width: "40px", height: "40px" }}
           />
