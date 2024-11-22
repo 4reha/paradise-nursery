@@ -13,7 +13,7 @@ function App() {
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>
-        <BrowserRouter>
+        <BrowserRouter basename="/paradise-nursery">
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route
