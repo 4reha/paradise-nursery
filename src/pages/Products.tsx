@@ -55,6 +55,7 @@ export const Products = () => {
                   <h3>{plant.name}</h3>
                   <p>${plant.price.toFixed(2)}</p>
                   <Button
+                    style={{ marginTop: "auto" }}
                     onClick={() => dispatch(addToCart(plant))}
                     disabled={isInCart(plant.id)}
                   >
